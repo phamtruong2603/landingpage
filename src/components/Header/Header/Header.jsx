@@ -8,7 +8,7 @@ import user from '../../../assets/img/user.png'
 
 const Header = () => {
     return (
-        <div className='stype-content header'>
+        <div className='style-content header'>
             <ul className='header-menu header-menu_left'>
                 <li className='header-menu_logo'>
                     <img src={logo} alt="" />

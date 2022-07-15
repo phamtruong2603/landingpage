@@ -111,8 +111,7 @@
 
 .ContentHeader-footer {
     height: 65px;
-}
-
-.ContentHeader-footer img {
-    height: 100%;
+    background-image: url('../../../../assets/img/footer.png');
+    background-position: center;
+    background-repeat: no-repeat;
 }

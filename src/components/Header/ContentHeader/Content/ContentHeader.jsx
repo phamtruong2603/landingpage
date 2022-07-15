@@ -6,12 +6,11 @@ import a from '../../../../assets/img/1.png';
 import b from '../../../../assets/img/2.png';
 import c from '../../../../assets/img/3.png';
 import giftbox from '../../../../assets/img/giftbox.png';
-import footer from '../../../../assets/img/footer.png';
 
 const ContentHeader = () => {
     return (
         <>
-            <div className='ContentHeader stype-content'>
+            <div className='ContentHeader style-content'>
                 <header>
                     <img src={backgroundTitle} alt="" />
                 </header>
@@ -146,7 +145,7 @@ const ContentHeader = () => {
                 </div>
             </div>
             <footer className='ContentHeader-footer'>
-                <img src={footer} alt="" />
+                {/* <img src={footer} alt="" /> */}
             </footer>
         </>
     )
