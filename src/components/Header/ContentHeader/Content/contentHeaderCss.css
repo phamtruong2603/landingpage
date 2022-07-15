@@ -81,6 +81,12 @@
     display: inline !important;
 }
 
+.telephoneOrange {
+    display: inline !important;
+    color: #ff7b0e;
+    font-weight: 500
+}
+
 .content-right {
     width: 60%;
     font-size: 15px;

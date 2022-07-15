@@ -109,7 +109,37 @@ const ContentHeader = () => {
                                     <img src={giftbox} alt="" />
                                     <b>Thời gian công bố danh sách quà tặng: </b><span className='dateRed'>28/07/2022</span>
                                 </div>
-
+                            </li>
+                            <li>
+                                <div className='gift-box'>
+                                    <img src={giftbox} alt="" />
+                                    <span><b>Thời gian gửi quà:</b></span>
+                                </div>
+                                <span>- Đối với quà tặng là tiền mặt: Sẽ được gửi chuyển khoản vào 01/08</span>
+                                <span>- Đối với quà tặng là voucher: Sẽ được đẩy vào tài khoản học sinh trên trang Tuyensinh247 vào</span>
+                                <span>ngày 01/08.</span>
+                                <span>- Đối với quà tặng là hiện vật: Sẽ được gửi đi ngày 10/08/2022.</span>
+                            </li>
+                            <li>
+                                <div>
+                                    <div className='gift-box'>
+                                        <img src={giftbox} alt="" />
+                                        <span><b>Chú ý:</b></span>
+                                    </div>
+                                    <span>- Trong thời gian diễn ra chương trình, nếu
+                                        <span style={{
+                                            display: 'inline',
+                                            borderBottom: '1px solid',
+                                            color: '#1b59b3'
+                                        }}>
+                                            <b> Tuyensinh247.com </b>
+                                        </span>
+                                        phát hiện có gian lận về báo</span>
+                                    <span>điểm thì Tuyensinh247.com sẽ tự động hủy quà tặng của người tham gia mà không cần thông</span>
+                                    <span>báo trước.</span>
+                                    <span>- Học sinh không điền đủ thông tin trong form đăng kí sẽ bị hủy kết quả báo điểm.</span>
+                                    <span>Hotline liên hệ miễn phí: <span className='telephoneOrange'>1800 6947</span> hoặc <span className='telephoneOrange'>0247 300 7989</span></span>
+                                </div>
                             </li>
                         </ul>
                     </div>
