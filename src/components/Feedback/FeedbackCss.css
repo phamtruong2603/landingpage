@@ -1,0 +1,81 @@
+.Feedback {
+    padding-bottom: 50px;
+}
+
+.Feedback p {
+    margin: 0;
+}
+
+.numberComment {
+    color: blue;
+}
+
+.login {
+    display: flex;
+    height: 65px;
+    padding: 10px;
+}
+
+.answer-login img,
+.login img {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.login>p {
+    margin-left: 20px;
+    color: red;
+}
+
+.login p span {
+    color: blue;
+    text-decoration: underline blue solid;
+}
+
+.Feedback-comment>div {
+    margin-left: 20px;
+}
+
+.answer {
+    margin-left: 65px;
+    background-color: #d2d8df;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+.number-comment {
+    color: blue;
+    border-bottom: 1px solid;
+    width: max-content;
+}
+
+.answer textarea {
+    width: 100%;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding-left: 5px;
+    height: 50px;
+    outline: none;
+}
+
+.answer-login {
+    display: flex;
+    height: 65px;
+    padding: 10px 0;
+    position: relative;
+}
+
+.answer-login button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: #3c82f1;
+    color: white;
+    border: none;
+    width: 65px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.hr {
+    border-bottom: 1px dashed rgb(99, 95, 95);
+}

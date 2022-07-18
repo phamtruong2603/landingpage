@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    max-height: 50px;
+    height: 50px;
 }
 
 .header-menu {
@@ -72,6 +72,6 @@
     transform: rotate(45deg);
     background-color: #d9d8d8;
     position: absolute;
-    top:27%;
+    top:35%;
     left: -4px;
 }
